@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1377051E756EFF00690150 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1377041E756EFF00690150 /* NoteCell.swift */; };
 		8F2F0B281E755705006C6E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B271E755705006C6E0D /* AppDelegate.swift */; };
 		8F2F0B2A1E755705006C6E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B291E755705006C6E0D /* ViewController.swift */; };
 		8F2F0B2D1E755705006C6E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F0B2B1E755705006C6E0D /* Main.storyboard */; };
@@ -19,9 +20,11 @@
 		8F2F0B6E1E755BDC006C6E0D /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B681E755BDC006C6E0D /* Category+CoreDataProperties.swift */; };
 		8F2F0B6F1E755BDC006C6E0D /* Images+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */; };
 		8F2F0B701E755BDC006C6E0D /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */; };
+		8F2F0B721E756912006C6E0D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B711E756912006C6E0D /* MaterialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F1377041E756EFF00690150 /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		8F2F0B241E755705006C6E0D /* notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2F0B271E755705006C6E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F2F0B291E755705006C6E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		8F2F0B681E755BDC006C6E0D /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8F2F0B711E756912006C6E0D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		8F2F0B3D1E75596C006C6E0D /* view */ = {
 			isa = PBXGroup;
 			children = (
+				8F2F0B711E756912006C6E0D /* MaterialView.swift */,
+				8F1377041E756EFF00690150 /* NoteCell.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -200,11 +206,13 @@
 			files = (
 				8F2F0B701E755BDC006C6E0D /* Images+CoreDataProperties.swift in Sources */,
 				8F2F0B6E1E755BDC006C6E0D /* Category+CoreDataProperties.swift in Sources */,
+				8F1377051E756EFF00690150 /* NoteCell.swift in Sources */,
 				8F2F0B301E755705006C6E0D /* notebook.xcdatamodeld in Sources */,
 				8F2F0B6D1E755BDC006C6E0D /* Category+CoreDataClass.swift in Sources */,
 				8F2F0B6B1E755BDC006C6E0D /* Note+CoreDataClass.swift in Sources */,
 				8F2F0B2A1E755705006C6E0D /* ViewController.swift in Sources */,
 				8F2F0B281E755705006C6E0D /* AppDelegate.swift in Sources */,
+				8F2F0B721E756912006C6E0D /* MaterialView.swift in Sources */,
 				8F2F0B6C1E755BDC006C6E0D /* Note+CoreDataProperties.swift in Sources */,
 				8F2F0B6F1E755BDC006C6E0D /* Images+CoreDataClass.swift in Sources */,
 			);
@@ -370,6 +378,7 @@
 				8F2F0B3B1E755705006C6E0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
