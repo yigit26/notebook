@@ -21,6 +21,8 @@
 		8F2F0B6F1E755BDC006C6E0D /* Images+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */; };
 		8F2F0B701E755BDC006C6E0D /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */; };
 		8F2F0B721E756912006C6E0D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B711E756912006C6E0D /* MaterialView.swift */; };
+		8F579D661E7743E300F698B1 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F579D651E7743E300F698B1 /* NoteViewController.swift */; };
+		8F579D681E77458800F698B1 /* CategoryPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F579D671E77458800F698B1 /* CategoryPopupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8F2F0B711E756912006C6E0D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		8F579D651E7743E300F698B1 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		8F579D671E77458800F698B1 /* CategoryPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPopupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				8F2F0B291E755705006C6E0D /* ViewController.swift */,
+				8F579D651E7743E300F698B1 /* NoteViewController.swift */,
+				8F579D671E77458800F698B1 /* CategoryPopupViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -207,7 +213,9 @@
 				8F2F0B701E755BDC006C6E0D /* Images+CoreDataProperties.swift in Sources */,
 				8F2F0B6E1E755BDC006C6E0D /* Category+CoreDataProperties.swift in Sources */,
 				8F1377051E756EFF00690150 /* NoteCell.swift in Sources */,
+				8F579D681E77458800F698B1 /* CategoryPopupViewController.swift in Sources */,
 				8F2F0B301E755705006C6E0D /* notebook.xcdatamodeld in Sources */,
+				8F579D661E7743E300F698B1 /* NoteViewController.swift in Sources */,
 				8F2F0B6D1E755BDC006C6E0D /* Category+CoreDataClass.swift in Sources */,
 				8F2F0B6B1E755BDC006C6E0D /* Note+CoreDataClass.swift in Sources */,
 				8F2F0B2A1E755705006C6E0D /* ViewController.swift in Sources */,
