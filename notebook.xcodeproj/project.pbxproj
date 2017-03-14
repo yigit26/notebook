@@ -14,18 +14,22 @@
 		8F2F0B301E755705006C6E0D /* notebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B2E1E755705006C6E0D /* notebook.xcdatamodeld */; };
 		8F2F0B321E755705006C6E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F0B311E755705006C6E0D /* Assets.xcassets */; };
 		8F2F0B351E755705006C6E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F0B331E755705006C6E0D /* LaunchScreen.storyboard */; };
-		8F2F0B6B1E755BDC006C6E0D /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B651E755BDC006C6E0D /* Note+CoreDataClass.swift */; };
-		8F2F0B6C1E755BDC006C6E0D /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B661E755BDC006C6E0D /* Note+CoreDataProperties.swift */; };
-		8F2F0B6D1E755BDC006C6E0D /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B671E755BDC006C6E0D /* Category+CoreDataClass.swift */; };
-		8F2F0B6E1E755BDC006C6E0D /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B681E755BDC006C6E0D /* Category+CoreDataProperties.swift */; };
-		8F2F0B6F1E755BDC006C6E0D /* Images+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */; };
-		8F2F0B701E755BDC006C6E0D /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */; };
 		8F2F0B721E756912006C6E0D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2F0B711E756912006C6E0D /* MaterialView.swift */; };
 		8F579D661E7743E300F698B1 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F579D651E7743E300F698B1 /* NoteViewController.swift */; };
 		8F579D681E77458800F698B1 /* CategoryPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F579D671E77458800F698B1 /* CategoryPopupViewController.swift */; };
+		8FF9912D1E7869740000DF0B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9912C1E7869740000DF0B /* Constant.swift */; };
+		8FF991341E7880DC0000DF0B /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9912E1E7880DC0000DF0B /* Note+CoreDataClass.swift */; };
+		8FF991351E7880DC0000DF0B /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF9912F1E7880DC0000DF0B /* Note+CoreDataProperties.swift */; };
+		8FF991361E7880DC0000DF0B /* Images+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF991301E7880DC0000DF0B /* Images+CoreDataClass.swift */; };
+		8FF991371E7880DC0000DF0B /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF991311E7880DC0000DF0B /* Images+CoreDataProperties.swift */; };
+		8FF991381E7880DC0000DF0B /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF991321E7880DC0000DF0B /* Category+CoreDataClass.swift */; };
+		8FF991391E7880DC0000DF0B /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF991331E7880DC0000DF0B /* Category+CoreDataProperties.swift */; };
+		E35592A0185F8F1A74077E4A /* Pods_notebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843BB706F123228F8DF256C1 /* Pods_notebook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62AB480D3C31F8C9CBBE89CD /* Pods-notebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notebook/Pods-notebook.debug.xcconfig"; sourceTree = "<group>"; };
+		843BB706F123228F8DF256C1 /* Pods_notebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1377041E756EFF00690150 /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		8F2F0B241E755705006C6E0D /* notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2F0B271E755705006C6E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,15 +39,17 @@
 		8F2F0B311E755705006C6E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F2F0B341E755705006C6E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2F0B361E755705006C6E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F2F0B651E755BDC006C6E0D /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8F2F0B661E755BDC006C6E0D /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8F2F0B671E755BDC006C6E0D /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8F2F0B681E755BDC006C6E0D /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8F2F0B711E756912006C6E0D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		8F579D651E7743E300F698B1 /* NoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		8F579D671E77458800F698B1 /* CategoryPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPopupViewController.swift; sourceTree = "<group>"; };
+		8FF9912C1E7869740000DF0B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8FF9912E1E7880DC0000DF0B /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FF9912F1E7880DC0000DF0B /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FF991301E7880DC0000DF0B /* Images+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FF991311E7880DC0000DF0B /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8FF991321E7880DC0000DF0B /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8FF991331E7880DC0000DF0B /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A132A17FBB7D88A244A38A26 /* Pods-notebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-notebook/Pods-notebook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35592A0185F8F1A74077E4A /* Pods_notebook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +69,8 @@
 			children = (
 				8F2F0B261E755705006C6E0D /* notebook */,
 				8F2F0B251E755705006C6E0D /* Products */,
+				FB338AB684BAA52B0B86BD24 /* Pods */,
+				E391FC746BF718BA9AF8838E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +85,7 @@
 		8F2F0B261E755705006C6E0D /* notebook */ = {
 			isa = PBXGroup;
 			children = (
+				8FF9912B1E78696C0000DF0B /* util */,
 				8F2F0B3F1E75597D006C6E0D /* resources */,
 				8F2F0B3E1E755971006C6E0D /* controller */,
 				8F2F0B3D1E75596C006C6E0D /* view */,
@@ -89,9 +99,9 @@
 		8F2F0B3C1E755966006C6E0D /* model */ = {
 			isa = PBXGroup;
 			children = (
-				8F2F0B651E755BDC006C6E0D /* Note+CoreDataClass.swift */,
-				8F2F0B671E755BDC006C6E0D /* Category+CoreDataClass.swift */,
-				8F2F0B691E755BDC006C6E0D /* Images+CoreDataClass.swift */,
+				8FF9912E1E7880DC0000DF0B /* Note+CoreDataClass.swift */,
+				8FF991301E7880DC0000DF0B /* Images+CoreDataClass.swift */,
+				8FF991321E7880DC0000DF0B /* Category+CoreDataClass.swift */,
 				8F2F0B641E755A4F006C6E0D /* properties */,
 			);
 			name = model;
@@ -130,11 +140,36 @@
 		8F2F0B641E755A4F006C6E0D /* properties */ = {
 			isa = PBXGroup;
 			children = (
-				8F2F0B661E755BDC006C6E0D /* Note+CoreDataProperties.swift */,
-				8F2F0B681E755BDC006C6E0D /* Category+CoreDataProperties.swift */,
-				8F2F0B6A1E755BDC006C6E0D /* Images+CoreDataProperties.swift */,
+				8FF9912F1E7880DC0000DF0B /* Note+CoreDataProperties.swift */,
+				8FF991311E7880DC0000DF0B /* Images+CoreDataProperties.swift */,
+				8FF991331E7880DC0000DF0B /* Category+CoreDataProperties.swift */,
 			);
 			name = properties;
+			sourceTree = "<group>";
+		};
+		8FF9912B1E78696C0000DF0B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8FF9912C1E7869740000DF0B /* Constant.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		E391FC746BF718BA9AF8838E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843BB706F123228F8DF256C1 /* Pods_notebook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB338AB684BAA52B0B86BD24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62AB480D3C31F8C9CBBE89CD /* Pods-notebook.debug.xcconfig */,
+				A132A17FBB7D88A244A38A26 /* Pods-notebook.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F2F0B391E755705006C6E0D /* Build configuration list for PBXNativeTarget "notebook" */;
 			buildPhases = (
+				3DE4E97D40BB7530CBF67A7C /* [CP] Check Pods Manifest.lock */,
 				8F2F0B201E755705006C6E0D /* Sources */,
 				8F2F0B211E755705006C6E0D /* Frameworks */,
 				8F2F0B221E755705006C6E0D /* Resources */,
+				BDB91CB10580FF04A4F6DCAC /* [CP] Embed Pods Frameworks */,
+				80170813B2FBD81DBDAA4A04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,24 +243,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DE4E97D40BB7530CBF67A7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80170813B2FBD81DBDAA4A04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notebook/Pods-notebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB91CB10580FF04A4F6DCAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notebook/Pods-notebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F2F0B201E755705006C6E0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2F0B701E755BDC006C6E0D /* Images+CoreDataProperties.swift in Sources */,
-				8F2F0B6E1E755BDC006C6E0D /* Category+CoreDataProperties.swift in Sources */,
 				8F1377051E756EFF00690150 /* NoteCell.swift in Sources */,
 				8F579D681E77458800F698B1 /* CategoryPopupViewController.swift in Sources */,
 				8F2F0B301E755705006C6E0D /* notebook.xcdatamodeld in Sources */,
+				8FF991381E7880DC0000DF0B /* Category+CoreDataClass.swift in Sources */,
+				8FF991371E7880DC0000DF0B /* Images+CoreDataProperties.swift in Sources */,
+				8FF991361E7880DC0000DF0B /* Images+CoreDataClass.swift in Sources */,
 				8F579D661E7743E300F698B1 /* NoteViewController.swift in Sources */,
-				8F2F0B6D1E755BDC006C6E0D /* Category+CoreDataClass.swift in Sources */,
-				8F2F0B6B1E755BDC006C6E0D /* Note+CoreDataClass.swift in Sources */,
+				8FF991391E7880DC0000DF0B /* Category+CoreDataProperties.swift in Sources */,
+				8FF9912D1E7869740000DF0B /* Constant.swift in Sources */,
 				8F2F0B2A1E755705006C6E0D /* ViewController.swift in Sources */,
+				8FF991341E7880DC0000DF0B /* Note+CoreDataClass.swift in Sources */,
 				8F2F0B281E755705006C6E0D /* AppDelegate.swift in Sources */,
 				8F2F0B721E756912006C6E0D /* MaterialView.swift in Sources */,
-				8F2F0B6C1E755BDC006C6E0D /* Note+CoreDataProperties.swift in Sources */,
-				8F2F0B6F1E755BDC006C6E0D /* Images+CoreDataClass.swift in Sources */,
+				8FF991351E7880DC0000DF0B /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +430,7 @@
 		};
 		8F2F0B3A1E755705006C6E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AB480D3C31F8C9CBBE89CD /* Pods-notebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5KMX773338;
@@ -356,6 +444,7 @@
 		};
 		8F2F0B3B1E755705006C6E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A132A17FBB7D88A244A38A26 /* Pods-notebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5KMX773338;

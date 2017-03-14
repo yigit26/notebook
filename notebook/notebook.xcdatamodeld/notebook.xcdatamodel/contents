@@ -6,7 +6,7 @@
     </entity>
     <entity name="Images" representedClassName=".Images" syncable="YES">
         <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
-        <relationship name="note" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="images" inverseEntity="Note" syncable="YES"/>
+        <relationship name="note" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Note" inverseName="image" inverseEntity="Note" syncable="YES"/>
     </entity>
     <entity name="Note" representedClassName=".Note" syncable="YES">
         <attribute name="brief" optional="YES" attributeType="String" syncable="YES"/>
@@ -14,11 +14,11 @@
         <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="note" inverseEntity="Category" syncable="YES"/>
-        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Images" inverseName="note" inverseEntity="Images" syncable="YES"/>
+        <relationship name="image" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Images" inverseName="note" inverseEntity="Images" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Category" positionX="133" positionY="27" width="128" height="73"/>
+        <element name="Images" positionX="-252" positionY="36" width="128" height="73"/>
         <element name="Note" positionX="-63" positionY="-18" width="128" height="133"/>
-        <element name="Category" positionX="153" positionY="9" width="128" height="73"/>
-        <element name="Images" positionX="117" positionY="144" width="128" height="73"/>
     </elements>
 </model>
