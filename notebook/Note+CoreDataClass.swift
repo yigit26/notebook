@@ -11,5 +11,8 @@ import CoreData
 
 
 public class Note: NSManagedObject {
-
+    public override func awakeFromInsert() {
+        super.awakeFromInsert()
+        self.date = NSDate()
+    }
 }

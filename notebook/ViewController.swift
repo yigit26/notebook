@@ -23,6 +23,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func getData() {
         let fec : NSFetchRequest<Note> = Note.fetchRequest()
+        let sortDesc = NSSortDescriptor(key: "date", ascending: false)
+        fec.sortDescriptors = [sortDesc]
         do {
             self.data = try context.fetch(fec)
             self.tblView.reloadData()
